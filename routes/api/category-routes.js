@@ -12,8 +12,8 @@ router.get('/', async (req, res) => {
       ]
     })
 
-    const allCategories = dbResponse.map(product => {
-      return product.get({plain: true})
+    const allCategories = dbResponse.map(category => {
+      return category.get({plain: true})
     })
 
     res.status(200).json(allCategories)
@@ -63,7 +63,7 @@ router.delete('/:id', async (req, res) => {
     const dbResponse = await Category.destroy({
       where: { id: req.params.id }
     })
-    res.status(200).json(dbResponse)
+    res.status(200).json({message: 'Success', res: dbResponse})
   } catch(err) {
     res.status(400).json(err)
   }
