@@ -21,4 +21,5 @@ Technologies used includes:
 4. Express.js
 
 ## Installation
+Click on the video below for installation instructions.
 [![Installation Instructions](./assets/images/tutpreview.png)](https://youtu.be/nJVWFmMdAoA "Installation Instructions")
