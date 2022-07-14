@@ -6,7 +6,6 @@ Store data with sequelize!
 - [Application Preview](#application-preview)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Project Notes](#project-notes)
 
 ## Introduction
 Ecommerce related data such as items and their respective price, stock, name, category, and tag are stored in the backend using sequelize- an object relational mapper (ORM) for mysql2. Routing/Business logic is handled with express and the user can acquire and manipulate stored information through a series of GET, POST, PUT, and DELETE routes through Insomnia, etc, or through the browser (GET).
